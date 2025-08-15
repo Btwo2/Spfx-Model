@@ -1,0 +1,14 @@
+{
+  "name": "SPFx Codespace (Node 22)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "npm i -g yo gulp @microsoft/generator-sharepoint",
+  "forwardPorts": [4321, 35729],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "msjsdiag.debugger-for-edge"
+      ]
+    }
+  }
+}
